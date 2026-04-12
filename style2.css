@@ -157,3 +157,11 @@ nav a:hover {
 .btn:hover {
     background-color: #333;
 }
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
