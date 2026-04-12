@@ -46,6 +46,29 @@
     <footer>
         <p>© 2026 Moda DANILOVICH</p>
     </footer>
+    <footer>
+    <p>© 2026 Moda DANILOVICH</p>
+</footer>
+
+<script>
+    function comprobarFormulario() {
+        var nombre = document.getElementById("nombre").value;
+        var correo = document.getElementById("correo").value;
+        var mensaje = document.getElementById("mensaje").value;
+        var texto = document.getElementById("texto");
+
+        if (nombre == "" || correo == "" || mensaje == "") {
+            texto.innerHTML = "Por favor, rellena todos los campos";
+            texto.style.color = "red";
+        } else {
+            texto.innerHTML = "Formulario enviado correctamente";
+            texto.style.color = "green";
+        }
+    }
+</script>
+
+</body>
+</html>
 
 </body>
 </html>
