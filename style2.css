@@ -165,3 +165,32 @@ footer {
   padding: 15px;
 }
 
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    text-align: center;
+  }
+
+  h1 {
+    position: static;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  nav {
+    position: static;
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .mini-galeria {
+    justify-content: center;
+    width: 70px;
+  }
+
+  .mini-galeria img {
+    margin-left: 0;
+  }
+}
